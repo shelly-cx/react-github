@@ -1,0 +1,67 @@
+
+.uc-button-default,
+.uc-button-default--default{
+    text-align: center;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 0.28rem;
+    border: 0;
+    padding: 8px 15px;
+    outline: none;
+}
+
+.uc-button-default--large {
+    height: 0.65rem;
+    width: 100%;
+    background: #4c4f50;
+    color: #fff;
+    line-height: 0.45rem;
+}
+
+.uc-button-default--small {
+    font-size: 12px;
+    padding: 1px 4px;
+    background: #4c4f50;
+    color: #fff;
+    line-height: 0.45rem;
+}
+
+.uc-button-circ ,
+.uc-button-circ--default{
+    border: 0;
+    width: 35px;
+    height: 35px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 33px;
+    outline: none;
+}
+
+.uc-button-circ--large {
+    border: 0;
+    width: 50px;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+.uc-button-circ--small {
+    border: 0;
+    width: 20px;
+    height: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+
