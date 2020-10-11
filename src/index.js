@@ -6,12 +6,9 @@ import './assets/css/base.css'
 //约束字体比值
 import  './assets/js/font';
 
-//引入数据交互的插件配置
-import './plugins/axios';
-import './plugins/umi-request';
-import UcCellTest from "./components/uc-cell/uc-cell.test";
-
 import {BrowserRouter as Router} from 'react-router-dom';
+
+console.log('搞事情')
 
 ReactDOM.render(
     <Router>
