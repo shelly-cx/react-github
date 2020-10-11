@@ -9,10 +9,14 @@ import  './assets/js/font';
 //引入数据交互的插件配置
 import './plugins/axios';
 import './plugins/umi-request';
+import UcCellTest from "./components/uc-cell/uc-cell.test";
 
+import {BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
-    <div>hello</div>,
+    <Router>
+        <UcCellTest/>
+    </Router>,
   document.getElementById('root')
 );
 

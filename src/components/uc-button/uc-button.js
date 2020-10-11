@@ -37,7 +37,12 @@ export  default  class UcButton extends Component{
                 className={`${styles[`uc-button-${type}`]} ${styles[`uc-button-${type}--${size}`]}`}
 
                 style={style}
-                onClick={onclick}
+                onClick={(e) =>{
+                    onclick(e);
+                    e.stopPropagation()
+                }
+
+                }
                 disabled={disable}
             >
                 {children ? children : '按钮'}
