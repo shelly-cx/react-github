@@ -34,7 +34,7 @@ class UcCell extends Component{
     push = (e) =>{
         let {to,url,history} = this.props;
         if(url) window.open(url,'_blank')
-        else if (to) history.push({pathname:to.pathCache,search:`collectionName=${to.search.collectionName}`})
+        else if (to) history.push({pathname:to.pathname,search:`collectionName=${to.search.collectionName}`})
         e.stopPropagation();
     };
 
